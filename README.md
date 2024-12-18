@@ -1,27 +1,29 @@
-Basic Information : 
+# **Amazon Web Scraping Project**
 
-  This is the simple basic project to scrap from amazon webiste
-  
-  the Project.py file 
-  This file uses selenium to collect the data.
-  It contains the script that fetches the outerhtml from the website and stores inside a folder names Data.
-  
-  the collect.py file
-  This file uses beautiful soup and pandas 
-  it collects the text from the html files which we have obtained by running project.py file.
+This is a simple project designed to scrape data from the Amazon website.
 
+---
 
+## **Project Structure**
 
-Steps to execute
+### **1. project.py**
+- Uses **Selenium** to automate data collection.
+- Fetches the `outerHTML` from the Amazon website.
+- Stores the scraped HTML files inside a folder named `data`.
 
-1.Install the libraries 
-  pip install selenium
-  pip install bs4
-  pip install pandas
+### **2. collect.py**
+- Utilizes **BeautifulSoup** and **Pandas** for processing.
+- Parses the stored HTML files to extract relevant information like product details.
+- Outputs the processed data for analysis and visualization.
 
+---
 
-2.Execute the project.py file
-3.Execute the collect.py file
+## **Steps to Execute**
 
+### **1. Install the Required Libraries**
+Run the following commands to install the necessary libraries:
 
-
+```bash
+pip install selenium
+pip install bs4
+pip install pandas
